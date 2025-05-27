@@ -1,17 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     formats: ['image/avif', 'image/webp'],
-    unoptimized: true,
+    domains: ['vercel.app'],
+    // Only use unoptimized when using static export
+    // unoptimized: true,
   },
-  output: 'export',
-  distDir: 'out',
-  // For a custom domain
-  // basePath: '/tig-technology',
-  // For GitHub Pages
-  // assetPrefix: '/tig-technology',
+  // Comment out static export configuration for Vercel deployment
+  // output: 'export',
+  // distDir: 'out',
 }
 
 module.exports = nextConfig;
