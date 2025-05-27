@@ -126,7 +126,7 @@ export default function Workflows() {
                     <ul className="text-gray-200 text-sm space-y-2 list-disc pl-4">
                       <li className="font-medium">Chartered Fintech Professional (CFtP)</li>
                       <li className="font-medium">Master of Applied Economics, NUS</li>
-                      <li className="font-medium">BA, Economics, NUS</li>
+                      <li className="font-medium">BA, Economics</li>
                       <li className="font-medium">Formerly at Ant International and Bank of China</li>
                     </ul>
                   </div>
